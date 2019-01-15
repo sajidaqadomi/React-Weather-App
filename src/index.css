@@ -7,8 +7,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+*{
+  box-sizing: border-box
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p{
+  font-size: 14px;
+  
+}
+.card { 
+  background-color: skyblue ;
+  opacity: .7;
+ }
+
+ .weather__value{
+  color:red;
 }
